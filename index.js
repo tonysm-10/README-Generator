@@ -28,7 +28,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose the license for your Project:',
-        choices: ['Mit License', 'none']
+        choices: ['Mit', 'none']
     },
     {
         type: 'input', 
@@ -68,7 +68,13 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-
+    inquirer.prompt(questions)
+    .then((answers) => {
+        writeToFile('README.md', generateMarkdown(answers));
+    })
+    .catch((err) => {
+        console.log(err);
+    });
 }
 
 // Function call to initialize app
