@@ -10,8 +10,46 @@ const questions = [
         message: 'What is your Project Name?'
     },
     {
-
+        type: 'input',
+        name: 'description',
+        message: 'Give me a brief description of you Project'
     },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Provide me clear instructions on how to install your Project'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Instructions on how someone would use your Project?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose the license for your Project:',
+        choices: ['Mit License', 'none']
+    },
+    {
+        type: 'input', 
+        name: 'contributing',
+        message: 'Who contributed to your project?'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What are the test instructions for your Project?'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter github Username:'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter the email where people can contact you:'
+    }
 ];
 
 
