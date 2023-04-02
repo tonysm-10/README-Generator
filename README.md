@@ -1,40 +1,45 @@
 # README Generator
 
-## Description
+  ## Description
 
-In this section, provide a detailed
+  This is a command-line application that generates a professional README file for a new project. When the user enters information about their project repository, the application generates a high-quality README.md file with sections for the project title, description, table of contents, installation, usage, license, contributing, and questions.
 
-## Table of Contents
+  ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-## Installation
+  ## Installation
 
-can understand what your project is all about.
+  To install this application, clone the repository and run the following command:  npm install
 
-## Usage
+  ## Usage
 
-In this section, provide 
+  To use this application, run the following command: index.js
 
-[License](#license)
+  ## License
 
-## Contributing 
+  ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Provide information about how others can contribute to your project. This could include information about submitting bug reports, suggesting new features, or contributing code.
+  [MIT](https://opensource.org/licenses/MIT)
 
-## Tests
+  ## Contributing 
+
+  N/A
+
+  ## Tests
   
-Include information about any tests that you have run on your project. This could include details about the testing process, any tools or frameworks that you used, and the results of the tests.
+  none
 
-## Questions
+  ## Questions
 
-How to reach me? 
+  How to reach me? 
 
-Any further questions please contact me at ayalaarellanoanthony@gmal.com
+  Any further questions please contact me at ayalaarellanoanthony@gmail.com
 
-You can also check out my [GitHub profile](https://github.com/tonysm-10) for more projects.
+  You can also check out my [GitHub profile](https://github.com/tonysm-10) for more projects.
+
